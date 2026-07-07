@@ -1,0 +1,34 @@
+﻿{
+  "mappings": [
+    {
+      "emotion": "lonely",
+      "categories": ["family", "friends", "pets"],
+      "priority": "high",
+      "message": "Remembering loved ones can help"
+    },
+    {
+      "emotion": "homesick",
+      "categories": ["home", "earth", "family"],
+      "priority": "high",
+      "message": "Home memories to comfort you"
+    },
+    {
+      "emotion": "sad",
+      "categories": ["pets", "family", "achievements"],
+      "priority": "medium",
+      "message": "Happy memories to lift your spirits"
+    },
+    {
+      "emotion": "stressed",
+      "categories": ["earth", "pets", "home"],
+      "priority": "medium",
+      "message": "Relaxing scenes to calm you"
+    },
+    {
+      "emotion": "tired",
+      "categories": ["achievements", "earth", "friends"],
+      "priority": "low",
+      "message": "Inspirational memories to energize you"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "model_list": [
+    {
+      "model_url": "https://huggingface.co/mlc-ai/Phi-3.2-mini-4k-instruct-q4f16_1-MLC/resolve/main/",
+      "model_id": "Phi-3.2-mini-4k-instruct-q4f16_1-MLC",
+      "model_lib_url": "https://raw.githubusercontent.com/mlc-ai/binary-mlc-llm-libs/main/Phi-3.2-mini-4k-instruct-q4f16_1-MLC-webgpu.wasm"
+    },
+    {
+      "model_url": "https://huggingface.co/mlc-ai/TinyLlama-1.1B-Chat-v1.0-q4f16_1-MLC/resolve/main/",
+      "model_id": "TinyLlama-1.1B-Chat-v1.0-q4f16_1-MLC",
+      "model_lib_url": "https://raw.githubusercontent.com/mlc-ai/binary-mlc-llm-libs/main/TinyLlama-1.1B-Chat-v1.0-q4f16_1-MLC-webgpu.wasm"
+    }
+  ],
+  "model_list_cache": "model_list_cache.json",
+  "use_cache": true,
+  "required_features": ["shader-f16"]
+}

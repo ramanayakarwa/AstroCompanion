@@ -1,0 +1,659 @@
+﻿{
+    "categories":  {
+                       "earth":  {
+                                     "description":  "Beautiful Earth landscapes and nature",
+                                     "items":  [
+                                                   {
+                                                       "added":  "2025-12-05T23:06:31Z",
+                                                       "filename":  "beach-sunset.jpg",
+                                                       "id":  "earth-photo-1",
+                                                       "type":  "photo",
+                                                       "size":  "0 MB",
+                                                       "caption":  "beach sunset",
+                                                       "tags":  [
+                                                                    "earth",
+                                                                    "photo",
+                                                                    "memory"
+                                                                ],
+                                                       "file_size":  0,
+                                                       "date":  "2025-12-05",
+                                                       "path":  "/memories/earth/photos/beach-sunset.jpg",
+                                                       "duration":  null
+                                                   },
+                                                   {
+                                                       "added":  "2025-12-05T23:06:31Z",
+                                                       "filename":  "forest.jpg",
+                                                       "id":  "earth-photo-2",
+                                                       "type":  "photo",
+                                                       "size":  "0 MB",
+                                                       "caption":  "forest",
+                                                       "tags":  [
+                                                                    "earth",
+                                                                    "photo",
+                                                                    "memory"
+                                                                ],
+                                                       "file_size":  0,
+                                                       "date":  "2025-12-05",
+                                                       "path":  "/memories/earth/photos/forest.jpg",
+                                                       "duration":  null
+                                                   },
+                                                   {
+                                                       "added":  "2025-12-05T23:06:31Z",
+                                                       "filename":  "mountains.jpg",
+                                                       "id":  "earth-photo-3",
+                                                       "type":  "photo",
+                                                       "size":  "0 MB",
+                                                       "caption":  "mountains",
+                                                       "tags":  [
+                                                                    "earth",
+                                                                    "photo",
+                                                                    "memory"
+                                                                ],
+                                                       "file_size":  0,
+                                                       "date":  "2025-12-05",
+                                                       "path":  "/memories/earth/photos/mountains.jpg",
+                                                       "duration":  null
+                                                   },
+                                                   {
+                                                       "added":  "2025-12-05T23:06:31Z",
+                                                       "filename":  "ocean-waves.jpg",
+                                                       "id":  "earth-photo-4",
+                                                       "type":  "photo",
+                                                       "size":  "0 MB",
+                                                       "caption":  "ocean waves",
+                                                       "tags":  [
+                                                                    "earth",
+                                                                    "photo",
+                                                                    "memory"
+                                                                ],
+                                                       "file_size":  0,
+                                                       "date":  "2025-12-05",
+                                                       "path":  "/memories/earth/photos/ocean-waves.jpg",
+                                                       "duration":  null
+                                                   },
+                                                   {
+                                                       "added":  "2025-12-05T23:06:31Z",
+                                                       "filename":  "mountain-view.mp4",
+                                                       "id":  "earth-video-5",
+                                                       "type":  "video",
+                                                       "size":  "0 MB",
+                                                       "caption":  "mountain view",
+                                                       "tags":  [
+                                                                    "earth",
+                                                                    "video",
+                                                                    "memory"
+                                                                ],
+                                                       "file_size":  0,
+                                                       "date":  "2025-12-05",
+                                                       "path":  "/memories/earth/videos/mountain-view.mp4",
+                                                       "duration":  30
+                                                   },
+                                                   {
+                                                       "added":  "2025-12-05T23:06:31Z",
+                                                       "filename":  "ocean-sunrise.mp4",
+                                                       "id":  "earth-video-6",
+                                                       "type":  "video",
+                                                       "size":  "0 MB",
+                                                       "caption":  "ocean sunrise",
+                                                       "tags":  [
+                                                                    "earth",
+                                                                    "video",
+                                                                    "memory"
+                                                                ],
+                                                       "file_size":  0,
+                                                       "date":  "2025-12-05",
+                                                       "path":  "/memories/earth/videos/ocean-sunrise.mp4",
+                                                       "duration":  30
+                                                   }
+                                               ],
+                                     "name":  "Earth",
+                                     "voiceTriggers":  [
+                                                           "earth",
+                                                           "planet",
+                                                           "nature",
+                                                           "beach",
+                                                           "mountain"
+                                                       ],
+                                     "emotionTriggers":  [
+                                                             "homesick",
+                                                             "awestruck",
+                                                             "peaceful"
+                                                         ]
+                                 },
+                       "achievements":  {
+                                            "description":  "Personal achievements and milestones",
+                                            "items":  [
+                                                          {
+                                                              "added":  "2025-12-05T23:06:31Z",
+                                                              "filename":  "award-ceremony.jpg",
+                                                              "id":  "achievements-photo-1",
+                                                              "type":  "photo",
+                                                              "size":  "0 MB",
+                                                              "caption":  "award ceremony",
+                                                              "tags":  [
+                                                                           "achievements",
+                                                                           "photo",
+                                                                           "memory"
+                                                                       ],
+                                                              "file_size":  0,
+                                                              "date":  "2025-12-05",
+                                                              "path":  "/memories/achievements/photos/award-ceremony.jpg",
+                                                              "duration":  null
+                                                          },
+                                                          {
+                                                              "added":  "2025-12-05T23:06:31Z",
+                                                              "filename":  "first-job.jpg",
+                                                              "id":  "achievements-photo-2",
+                                                              "type":  "photo",
+                                                              "size":  "0 MB",
+                                                              "caption":  "first job",
+                                                              "tags":  [
+                                                                           "achievements",
+                                                                           "photo",
+                                                                           "memory"
+                                                                       ],
+                                                              "file_size":  0,
+                                                              "date":  "2025-12-05",
+                                                              "path":  "/memories/achievements/photos/first-job.jpg",
+                                                              "duration":  null
+                                                          },
+                                                          {
+                                                              "added":  "2025-12-05T23:06:31Z",
+                                                              "filename":  "graduation.jpg",
+                                                              "id":  "achievements-photo-3",
+                                                              "type":  "photo",
+                                                              "size":  "0 MB",
+                                                              "caption":  "graduation",
+                                                              "tags":  [
+                                                                           "achievements",
+                                                                           "photo",
+                                                                           "memory"
+                                                                       ],
+                                                              "file_size":  0,
+                                                              "date":  "2025-12-05",
+                                                              "path":  "/memories/achievements/photos/graduation.jpg",
+                                                              "duration":  null
+                                                          },
+                                                          {
+                                                              "added":  "2025-12-05T23:06:31Z",
+                                                              "filename":  "mission-selection.jpg",
+                                                              "id":  "achievements-photo-4",
+                                                              "type":  "photo",
+                                                              "size":  "0 MB",
+                                                              "caption":  "mission selection",
+                                                              "tags":  [
+                                                                           "achievements",
+                                                                           "photo",
+                                                                           "memory"
+                                                                       ],
+                                                              "file_size":  0,
+                                                              "date":  "2025-12-05",
+                                                              "path":  "/memories/achievements/photos/mission-selection.jpg",
+                                                              "duration":  null
+                                                          },
+                                                          {
+                                                              "added":  "2025-12-05T23:06:31Z",
+                                                              "filename":  "graduation-ceremony.mp4",
+                                                              "id":  "achievements-video-5",
+                                                              "type":  "video",
+                                                              "size":  "0 MB",
+                                                              "caption":  "graduation ceremony",
+                                                              "tags":  [
+                                                                           "achievements",
+                                                                           "video",
+                                                                           "memory"
+                                                                       ],
+                                                              "file_size":  0,
+                                                              "date":  "2025-12-05",
+                                                              "path":  "/memories/achievements/videos/graduation-ceremony.mp4",
+                                                              "duration":  30
+                                                          },
+                                                          {
+                                                              "added":  "2025-12-05T23:06:31Z",
+                                                              "filename":  "training-complete.mp4",
+                                                              "id":  "achievements-video-6",
+                                                              "type":  "video",
+                                                              "size":  "0 MB",
+                                                              "caption":  "training complete",
+                                                              "tags":  [
+                                                                           "achievements",
+                                                                           "video",
+                                                                           "memory"
+                                                                       ],
+                                                              "file_size":  0,
+                                                              "date":  "2025-12-05",
+                                                              "path":  "/memories/achievements/videos/training-complete.mp4",
+                                                              "duration":  30
+                                                          }
+                                                      ],
+                                            "name":  "Achievements",
+                                            "voiceTriggers":  [
+                                                                  "achievement",
+                                                                  "success",
+                                                                  "graduation",
+                                                                  "award"
+                                                              ],
+                                            "emotionTriggers":  [
+                                                                    "demotivated",
+                                                                    "tired",
+                                                                    "needing inspiration"
+                                                                ]
+                                        },
+                       "family":  {
+                                      "description":  "Photos and videos of family members",
+                                      "items":  [
+                                                    {
+                                                        "added":  "2025-12-05T23:06:31Z",
+                                                        "filename":  "family-1.jpg",
+                                                        "id":  "family-photo-1",
+                                                        "type":  "photo",
+                                                        "size":  "0.03 MB",
+                                                        "caption":  "family 1",
+                                                        "tags":  [
+                                                                     "family",
+                                                                     "photo",
+                                                                     "memory"
+                                                                 ],
+                                                        "file_size":  30538,
+                                                        "date":  "2025-12-05",
+                                                        "path":  "/memories/family/photos/family-1.jpg",
+                                                        "duration":  null
+                                                    },
+                                                    {
+                                                        "added":  "2025-12-05T23:06:31Z",
+                                                        "filename":  "family-2.jpg",
+                                                        "id":  "family-photo-2",
+                                                        "type":  "photo",
+                                                        "size":  "0.24 MB",
+                                                        "caption":  "family 2",
+                                                        "tags":  [
+                                                                     "family",
+                                                                     "photo",
+                                                                     "memory"
+                                                                 ],
+                                                        "file_size":  255499,
+                                                        "date":  "2025-12-05",
+                                                        "path":  "/memories/family/photos/family-2.jpg",
+                                                        "duration":  null
+                                                    },
+                                                    {
+                                                        "added":  "2025-12-05T23:06:31Z",
+                                                        "filename":  "family-3.jpg",
+                                                        "id":  "family-photo-3",
+                                                        "type":  "photo",
+                                                        "size":  "0.05 MB",
+                                                        "caption":  "family 3",
+                                                        "tags":  [
+                                                                     "family",
+                                                                     "photo",
+                                                                     "memory"
+                                                                 ],
+                                                        "file_size":  48971,
+                                                        "date":  "2025-12-05",
+                                                        "path":  "/memories/family/photos/family-3.jpg",
+                                                        "duration":  null
+                                                    },
+                                                    {
+                                                        "added":  "2025-12-05T23:06:31Z",
+                                                        "filename":  "family-group.jpg",
+                                                        "id":  "family-photo-4",
+                                                        "type":  "photo",
+                                                        "size":  "0.16 MB",
+                                                        "caption":  "family group",
+                                                        "tags":  [
+                                                                     "family",
+                                                                     "photo",
+                                                                     "memory"
+                                                                 ],
+                                                        "file_size":  164258,
+                                                        "date":  "2025-12-05",
+                                                        "path":  "/memories/family/photos/family-group.jpg",
+                                                        "duration":  null
+                                                    },
+                                                    {
+                                                        "added":  "2025-12-05T23:06:31Z",
+                                                        "filename":  "birthday.mp4",
+                                                        "id":  "family-video-5",
+                                                        "type":  "video",
+                                                        "size":  "0 MB",
+                                                        "caption":  "birthday",
+                                                        "tags":  [
+                                                                     "family",
+                                                                     "video",
+                                                                     "memory"
+                                                                 ],
+                                                        "file_size":  0,
+                                                        "date":  "2025-12-05",
+                                                        "path":  "/memories/family/videos/birthday.mp4",
+                                                        "duration":  30
+                                                    },
+                                                    {
+                                                        "added":  "2025-12-05T23:06:31Z",
+                                                        "filename":  "reunion.mp4",
+                                                        "id":  "family-video-6",
+                                                        "type":  "video",
+                                                        "size":  "0 MB",
+                                                        "caption":  "reunion",
+                                                        "tags":  [
+                                                                     "family",
+                                                                     "video",
+                                                                     "memory"
+                                                                 ],
+                                                        "file_size":  0,
+                                                        "date":  "2025-12-05",
+                                                        "path":  "/memories/family/videos/reunion.mp4",
+                                                        "duration":  30
+                                                    }
+                                                ],
+                                      "name":  "Family",
+                                      "voiceTriggers":  [
+                                                            "family",
+                                                            "parents",
+                                                            "children",
+                                                            "siblings",
+                                                            "mom",
+                                                            "dad",
+                                                            "mother",
+                                                            "father"
+                                                        ],
+                                      "emotionTriggers":  [
+                                                              "lonely",
+                                                              "homesick",
+                                                              "nostalgic",
+                                                              "sad"
+                                                          ]
+                                  },
+                       "friends":  {
+                                       "description":  "Memories with friends and colleagues",
+                                       "items":  [
+                                                     {
+                                                         "added":  "2025-12-05T23:06:31Z",
+                                                         "filename":  "college-friends.jpg",
+                                                         "id":  "friends-photo-1",
+                                                         "type":  "photo",
+                                                         "size":  "0.06 MB",
+                                                         "caption":  "college friends",
+                                                         "tags":  [
+                                                                      "friends",
+                                                                      "photo",
+                                                                      "memory"
+                                                                  ],
+                                                         "file_size":  63428,
+                                                         "date":  "2025-12-05",
+                                                         "path":  "/memories/friends/photos/college-friends.jpg",
+                                                         "duration":  null
+                                                     },
+                                                     {
+                                                         "added":  "2025-12-05T23:06:31Z",
+                                                         "filename":  "friends-1.jpg",
+                                                         "id":  "friends-photo-2",
+                                                         "type":  "photo",
+                                                         "size":  "0.1 MB",
+                                                         "caption":  "friends 1",
+                                                         "tags":  [
+                                                                      "friends",
+                                                                      "photo",
+                                                                      "memory"
+                                                                  ],
+                                                         "file_size":  108486,
+                                                         "date":  "2025-12-05",
+                                                         "path":  "/memories/friends/photos/friends-1.jpg",
+                                                         "duration":  null
+                                                     },
+                                                     {
+                                                         "added":  "2025-12-05T23:06:31Z",
+                                                         "filename":  "team-photo.jpg",
+                                                         "id":  "friends-photo-3",
+                                                         "type":  "photo",
+                                                         "size":  "0.05 MB",
+                                                         "caption":  "team photo",
+                                                         "tags":  [
+                                                                      "friends",
+                                                                      "photo",
+                                                                      "memory"
+                                                                  ],
+                                                         "file_size":  48832,
+                                                         "date":  "2025-12-05",
+                                                         "path":  "/memories/friends/photos/team-photo.jpg",
+                                                         "duration":  null
+                                                     },
+                                                     {
+                                                         "added":  "2025-12-05T23:06:31Z",
+                                                         "filename":  "graduation.mp4",
+                                                         "id":  "friends-video-4",
+                                                         "type":  "video",
+                                                         "size":  "0 MB",
+                                                         "caption":  "graduation",
+                                                         "tags":  [
+                                                                      "friends",
+                                                                      "video",
+                                                                      "memory"
+                                                                  ],
+                                                         "file_size":  0,
+                                                         "date":  "2025-12-05",
+                                                         "path":  "/memories/friends/videos/graduation.mp4",
+                                                         "duration":  30
+                                                     }
+                                                 ],
+                                       "name":  "Friends",
+                                       "voiceTriggers":  [
+                                                             "friends",
+                                                             "buddies",
+                                                             "colleagues",
+                                                             "team",
+                                                             "crew"
+                                                         ],
+                                       "emotionTriggers":  [
+                                                               "lonely",
+                                                               "isolated",
+                                                               "bored"
+                                                           ]
+                                   },
+                       "home":  {
+                                    "description":  "Photos of home, city, and neighborhood",
+                                    "items":  [
+                                                  {
+                                                      "added":  "2025-12-05T23:06:31Z",
+                                                      "filename":  "bedroom.jpg",
+                                                      "id":  "home-photo-1",
+                                                      "type":  "photo",
+                                                      "size":  "0 MB",
+                                                      "caption":  "bedroom",
+                                                      "tags":  [
+                                                                   "home",
+                                                                   "photo",
+                                                                   "memory"
+                                                               ],
+                                                      "file_size":  0,
+                                                      "date":  "2025-12-05",
+                                                      "path":  "/memories/home/photos/bedroom.jpg",
+                                                      "duration":  null
+                                                  },
+                                                  {
+                                                      "added":  "2025-12-05T23:06:31Z",
+                                                      "filename":  "city-view.jpg",
+                                                      "id":  "home-photo-2",
+                                                      "type":  "photo",
+                                                      "size":  "0 MB",
+                                                      "caption":  "city view",
+                                                      "tags":  [
+                                                                   "home",
+                                                                   "photo",
+                                                                   "memory"
+                                                               ],
+                                                      "file_size":  0,
+                                                      "date":  "2025-12-05",
+                                                      "path":  "/memories/home/photos/city-view.jpg",
+                                                      "duration":  null
+                                                  },
+                                                  {
+                                                      "added":  "2025-12-05T23:06:31Z",
+                                                      "filename":  "garden.jpg",
+                                                      "id":  "home-photo-3",
+                                                      "type":  "photo",
+                                                      "size":  "0 MB",
+                                                      "caption":  "garden",
+                                                      "tags":  [
+                                                                   "home",
+                                                                   "photo",
+                                                                   "memory"
+                                                               ],
+                                                      "file_size":  0,
+                                                      "date":  "2025-12-05",
+                                                      "path":  "/memories/home/photos/garden.jpg",
+                                                      "duration":  null
+                                                  },
+                                                  {
+                                                      "added":  "2025-12-05T23:06:31Z",
+                                                      "filename":  "house-front.jpg",
+                                                      "id":  "home-photo-4",
+                                                      "type":  "photo",
+                                                      "size":  "0 MB",
+                                                      "caption":  "house front",
+                                                      "tags":  [
+                                                                   "home",
+                                                                   "photo",
+                                                                   "memory"
+                                                               ],
+                                                      "file_size":  0,
+                                                      "date":  "2025-12-05",
+                                                      "path":  "/memories/home/photos/house-front.jpg",
+                                                      "duration":  null
+                                                  },
+                                                  {
+                                                      "added":  "2025-12-05T23:06:31Z",
+                                                      "filename":  "home-tour.mp4",
+                                                      "id":  "home-video-5",
+                                                      "type":  "video",
+                                                      "size":  "0 MB",
+                                                      "caption":  "home tour",
+                                                      "tags":  [
+                                                                   "home",
+                                                                   "video",
+                                                                   "memory"
+                                                               ],
+                                                      "file_size":  0,
+                                                      "date":  "2025-12-05",
+                                                      "path":  "/memories/home/videos/home-tour.mp4",
+                                                      "duration":  30
+                                                  },
+                                                  {
+                                                      "added":  "2025-12-05T23:06:31Z",
+                                                      "filename":  "neighborhood.mp4",
+                                                      "id":  "home-video-6",
+                                                      "type":  "video",
+                                                      "size":  "0 MB",
+                                                      "caption":  "neighborhood",
+                                                      "tags":  [
+                                                                   "home",
+                                                                   "video",
+                                                                   "memory"
+                                                               ],
+                                                      "file_size":  0,
+                                                      "date":  "2025-12-05",
+                                                      "path":  "/memories/home/videos/neighborhood.mp4",
+                                                      "duration":  30
+                                                  }
+                                              ],
+                                    "name":  "Home",
+                                    "voiceTriggers":  [
+                                                          "home",
+                                                          "house",
+                                                          "apartment",
+                                                          "city",
+                                                          "town"
+                                                      ],
+                                    "emotionTriggers":  [
+                                                            "homesick",
+                                                            "nostalgic",
+                                                            "longing"
+                                                        ]
+                                },
+                       "pets":  {
+                                    "description":  "Photos of pets and animals",
+                                    "items":  [
+                                                  {
+                                                      "added":  "2025-12-05T23:06:31Z",
+                                                      "filename":  "cat-sleeping.jpg",
+                                                      "id":  "pets-photo-1",
+                                                      "type":  "photo",
+                                                      "size":  "0 MB",
+                                                      "caption":  "cat sleeping",
+                                                      "tags":  [
+                                                                   "pets",
+                                                                   "photo",
+                                                                   "memory"
+                                                               ],
+                                                      "file_size":  0,
+                                                      "date":  "2025-12-05",
+                                                      "path":  "/memories/pets/photos/cat-sleeping.jpg",
+                                                      "duration":  null
+                                                  },
+                                                  {
+                                                      "added":  "2025-12-05T23:06:31Z",
+                                                      "filename":  "dog-1.jpg",
+                                                      "id":  "pets-photo-2",
+                                                      "type":  "photo",
+                                                      "size":  "0 MB",
+                                                      "caption":  "dog 1",
+                                                      "tags":  [
+                                                                   "pets",
+                                                                   "photo",
+                                                                   "memory"
+                                                               ],
+                                                      "file_size":  0,
+                                                      "date":  "2025-12-05",
+                                                      "path":  "/memories/pets/photos/dog-1.jpg",
+                                                      "duration":  null
+                                                  },
+                                                  {
+                                                      "added":  "2025-12-05T23:06:31Z",
+                                                      "filename":  "pet-together.jpg",
+                                                      "id":  "pets-photo-3",
+                                                      "type":  "photo",
+                                                      "size":  "0 MB",
+                                                      "caption":  "pet together",
+                                                      "tags":  [
+                                                                   "pets",
+                                                                   "photo",
+                                                                   "memory"
+                                                               ],
+                                                      "file_size":  0,
+                                                      "date":  "2025-12-05",
+                                                      "path":  "/memories/pets/photos/pet-together.jpg",
+                                                      "duration":  null
+                                                  },
+                                                  {
+                                                      "added":  "2025-12-05T23:06:31Z",
+                                                      "filename":  "pet-playing.mp4",
+                                                      "id":  "pets-video-4",
+                                                      "type":  "video",
+                                                      "size":  "0 MB",
+                                                      "caption":  "pet playing",
+                                                      "tags":  [
+                                                                   "pets",
+                                                                   "video",
+                                                                   "memory"
+                                                               ],
+                                                      "file_size":  0,
+                                                      "date":  "2025-12-05",
+                                                      "path":  "/memories/pets/videos/pet-playing.mp4",
+                                                      "duration":  30
+                                                  }
+                                              ],
+                                    "name":  "Pets",
+                                    "voiceTriggers":  [
+                                                          "pet",
+                                                          "dog",
+                                                          "cat",
+                                                          "animal",
+                                                          "buddy"
+                                                      ],
+                                    "emotionTriggers":  [
+                                                            "lonely",
+                                                            "sad",
+                                                            "needing comfort"
+                                                        ]
+                                }
+                   }
+}

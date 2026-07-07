@@ -1,0 +1,177 @@
+/* AppLayout.css - Custom styles for the main layout */
+
+.app-layout {
+  min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+}
+
+/* Floating Avatar Button Styles */
+.avatar-toggle-btn {
+  position: fixed !important;
+  bottom: 1.5rem !important;
+  right: 1.5rem !important;
+  z-index: 40 !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15) !important;
+  border: 1px solid hsl(var(--primary) / 0.3) !important;
+  background: hsl(var(--background)) !important;
+  color: hsl(var(--foreground)) !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 0.5rem !important;
+  padding: 0.75rem 1.25rem !important;
+  border-radius: 9999px !important;
+  transition: all 0.3s ease !important;
+  backdrop-filter: blur(8px) !important;
+  -webkit-backdrop-filter: blur(8px) !important;
+}
+
+.avatar-toggle-btn:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.2) !important;
+  border-color: hsl(var(--primary)) !important;
+  background: hsl(var(--primary) / 0.1) !important;
+}
+
+/* Animation for the twinkle dot */
+@keyframes twinkle {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}
+
+.animate-twinkle {
+  animation: twinkle 2s ease-in-out infinite;
+}
+
+/* Smooth transitions */
+.transition-smooth {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Backdrop blur effects */
+.backdrop-blur-sm {
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+/* Glass morphism effect */
+.glass-effect {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Mission Control Header */
+.mission-control-header {
+  position: relative;
+  overflow: hidden;
+}
+
+.mission-control-header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, 
+    transparent, 
+    hsl(var(--primary) / 0.3), 
+    transparent
+  );
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .avatar-toggle-btn {
+    bottom: 1rem !important;
+    right: 1rem !important;
+    padding: 0.5rem 1rem !important;
+  }
+  
+  .avatar-toggle-btn span {
+    display: none;
+  }
+  
+  .avatar-toggle-btn {
+    width: 48px;
+    height: 48px;
+    justify-content: center;
+  }
+}
+
+/* Custom scrollbar for the main content */
+main::-webkit-scrollbar {
+  width: 8px;
+}
+
+main::-webkit-scrollbar-track {
+  background: hsl(var(--muted) / 0.5);
+}
+
+main::-webkit-scrollbar-thumb {
+  background: hsl(var(--muted-foreground) / 0.5);
+  border-radius: 4px;
+}
+
+main::-webkit-scrollbar-thumb:hover {
+  background: hsl(var(--muted-foreground) / 0.8);
+}
+
+/* Avatar sidebar overlay */
+.avatar-sidebar-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(4px);
+  z-index: 99;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.avatar-sidebar-overlay.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+/* Floating Avatar Button */
+.avatar-toggle-btn {
+  position: fixed !important;
+  bottom: 1.5rem !important;
+  right: 1.5rem !important;
+  z-index: 40 !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15) !important;
+  border: 1px solid hsl(var(--primary) / 0.3) !important;
+  background: hsl(var(--background)) !important;
+  color: hsl(var(--foreground)) !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 0.5rem !important;
+  padding: 0.75rem 1.25rem !important;
+  border-radius: 9999px !important;
+  transition: all 0.3s ease !important;
+  backdrop-filter: blur(8px) !important;
+  -webkit-backdrop-filter: blur(8px) !important;
+}
+
+.avatar-toggle-btn:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.2) !important;
+  border-color: hsl(var(--primary)) !important;
+  background: hsl(var(--primary) / 0.1) !important;
+}
+
+/* Add to AppLayout.css */
+.transition-colors {
+  transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+
+/* Or if you want to keep transition-smooth, define it: */
+.transition-smooth {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}

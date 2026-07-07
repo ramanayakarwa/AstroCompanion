@@ -1,0 +1,46 @@
+﻿{
+  "triggers": [
+    {
+      "id": "trigger-001",
+      "phrases": ["i miss my family", "show family", "family photos", "my family", "family"],
+      "category": "family",
+      "priority": "high",
+      "response": "Showing cherished family memories"
+    },
+    {
+      "id": "trigger-002",
+      "phrases": ["i miss my friends", "show friends", "my buddies", "colleagues", "friends"],
+      "category": "friends",
+      "priority": "high",
+      "response": "Showing fun moments with friends"
+    },
+    {
+      "id": "trigger-003",
+      "phrases": ["i miss home", "show home", "my house", "my city", "home", "house"],
+      "category": "home",
+      "priority": "high",
+      "response": "Showing home memories"
+    },
+    {
+      "id": "trigger-004",
+      "phrases": ["i miss earth", "show earth", "our planet", "nature", "earth", "planet"],
+      "category": "earth",
+      "priority": "medium",
+      "response": "Showing beautiful Earth views"
+    },
+    {
+      "id": "trigger-005",
+      "phrases": ["i miss my pet", "show my dog", "my cat", "my pet", "pet", "dog", "cat"],
+      "category": "pets",
+      "priority": "medium",
+      "response": "Showing your pet memories"
+    },
+    {
+      "id": "trigger-006",
+      "phrases": ["i feel demotivated", "show achievements", "my success", "milestones", "achievements"],
+      "category": "achievements",
+      "priority": "medium",
+      "response": "Showing your achievements for motivation"
+    }
+  ]
+}

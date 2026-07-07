@@ -1,0 +1,465 @@
+.earth-window-container {
+  padding: 20px;
+  background: linear-gradient(135deg, #0a0e2a 0%, #1a1f3a 100%);
+  color: white;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.earth-window-header {
+  text-align: center;
+  margin-bottom: 30px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 20px;
+}
+
+.earth-window-header h1 {
+  font-size: 2.5rem;
+  color: #4facfe;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  color: #a0c8ff;
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.main-content {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+/* Control Panel */
+.control-panel {
+  flex: 1;
+  min-width: 350px;
+  max-width: 400px;
+  background: rgba(20, 25, 60, 0.8);
+  border-radius: 20px;
+  padding: 25px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.control-section {
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.control-section h3 {
+  color: #4facfe;
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+}
+
+.mission-info {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.mission-stat {
+  flex: 1;
+  text-align: center;
+  padding: 15px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+.stat-value {
+  display: block;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #00f2fe;
+  margin-bottom: 5px;
+}
+
+.stat-label {
+  font-size: 0.9rem;
+  color: #a0c8ff;
+}
+
+/* Location Buttons */
+.location-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.location-btn {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s;
+  text-align: left;
+}
+
+.location-btn:hover {
+  background: rgba(79, 172, 254, 0.1);
+  border-color: #4facfe;
+}
+
+.location-btn.active {
+  background: rgba(79, 172, 254, 0.2);
+  border-color: #4facfe;
+}
+
+.location-icon {
+  font-size: 1.5rem;
+}
+
+.location-details {
+  flex: 1;
+}
+
+.location-city {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.location-coords {
+  font-size: 0.9rem;
+  color: #a0c8ff;
+}
+
+/* Mood Buttons */
+.mood-buttons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.mood-btn {
+  padding: 12px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.mood-btn:hover {
+  transform: translateY(-2px);
+}
+
+.mood-btn.active {
+  border-color: #4facfe;
+  background: rgba(79, 172, 254, 0.2);
+}
+
+.mood-btn.calm.active { border-color: #4facfe; }
+.mood-btn.energetic.active { border-color: #FFDD00; }
+.mood-btn.lonely.active { border-color: #9B59B6; }
+.mood-btn.stressed.active { border-color: #FF6B6B; }
+
+.mood-description {
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  font-size: 0.9rem;
+  color: #a0c8ff;
+}
+
+/* Weather Controls */
+.weather-controls {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.weather-btn {
+  padding: 12px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.weather-btn:hover {
+  transform: translateY(-2px);
+}
+
+.weather-btn.active {
+  border-color: #00f2fe;
+  background: rgba(0, 242, 254, 0.2);
+}
+
+.auto-control {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+
+.auto-control label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.auto-control input {
+  width: 18px;
+  height: 18px;
+}
+
+/* Intervention Section */
+.intervention-section {
+  background: rgba(255, 107, 107, 0.1);
+  border-radius: 15px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.intervention-tip {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 15px;
+  padding: 15px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+.tip-icon {
+  font-size: 2rem;
+}
+
+.tip-text {
+  flex: 1;
+  color: #a0c8ff;
+  line-height: 1.5;
+}
+
+.breathing-exercise-btn {
+  width: 100%;
+  padding: 15px;
+  background: linear-gradient(90deg, #4facfe 0%, #00f2fe 100%);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.breathing-exercise-btn:hover {
+  transform: translateY(-3px);
+}
+
+/* Visualization Panel */
+.visualization-panel {
+  flex: 2;
+  min-width: 700px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.time-visualization {
+  background: rgba(20, 25, 60, 0.8);
+  border-radius: 20px;
+  padding: 25px;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 30px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+  overflow: hidden;
+  margin: 15px 0;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #4facfe 0%, #00f2fe 100%);
+  border-radius: 15px;
+  position: relative;
+  transition: width 1s ease;
+}
+
+.progress-fill.mission {
+  background: linear-gradient(90deg, #FF6B6B 0%, #FF9F43 100%);
+}
+
+.progress-label {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.season-indicators {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.season-indicators span {
+  padding: 5px 15px;
+  border-radius: 20px;
+  color: #a0c8ff;
+}
+
+.season-indicators span.active {
+  background: rgba(79, 172, 254, 0.2);
+  color: #4facfe;
+  font-weight: bold;
+}
+
+/* Special Events */
+.special-events {
+  background: rgba(20, 25, 60, 0.8);
+  border-radius: 20px;
+  padding: 25px;
+}
+
+.event-buttons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.event-buttons button {
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-size: 1rem;
+}
+
+.event-buttons button:hover {
+  background: rgba(79, 172, 254, 0.2);
+  border-color: #4facfe;
+  transform: translateY(-2px);
+}
+
+/* Stats Panel */
+.stats-panel {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.stat-card {
+  background: rgba(20, 25, 60, 0.8);
+  border-radius: 15px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.stat-icon {
+  font-size: 2.5rem;
+}
+
+.stat-content {
+  flex: 1;
+}
+
+.stat-title {
+  font-size: 0.9rem;
+  color: #a0c8ff;
+  margin-bottom: 5px;
+}
+
+.stat-value {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #4facfe;
+}
+
+/* Footer */
+.earth-window-footer {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-info {
+  background: rgba(0, 0, 0, 0.3);
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  color: #a0c8ff;
+  line-height: 1.6;
+}
+
+.footer-status {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.status {
+  padding: 10px 20px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  color: #a0c8ff;
+}
+
+.status.online {
+  background: rgba(29, 209, 161, 0.2);
+  color: #1DD1A1;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .main-content {
+    flex-direction: column;
+  }
+  
+  .control-panel,
+  .visualization-panel {
+    min-width: 100%;
+    max-width: 100%;
+  }
+  
+  .stats-panel,
+  .event-buttons,
+  .mood-buttons,
+  .weather-controls {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .stats-panel,
+  .event-buttons,
+  .mood-buttons,
+  .weather-controls {
+    grid-template-columns: 1fr;
+  }
+  
+  .footer-status {
+    flex-direction: column;
+    align-items: center;
+  }
+}

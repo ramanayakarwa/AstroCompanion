@@ -1,0 +1,220 @@
+.avatar-sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 420px;
+  height: 100vh;
+  background: hsl(var(--background));
+  border-left: 1px solid hsl(var(--border));
+  box-shadow: -4px 0 20px rgba(0, 0, 0, 0.15);
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  transform: translateX(100%);
+}
+
+.avatar-sidebar.open {
+  transform: translateX(0);
+}
+
+.avatar-sidebar.closed {
+  transform: translateX(100%);
+}
+
+.avatar-sidebar-header {
+  padding: 1.5rem;
+  border-bottom: 1px solid hsl(var(--border));
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: hsl(var(--card));
+}
+
+.avatar-header-content {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.avatar-icon {
+  width: 48px;
+  height: 48px;
+  border: 2px solid hsl(var(--primary));
+  background: hsl(var(--primary) / 0.1);
+}
+
+.avatar-info h3 {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: hsl(var(--foreground));
+}
+
+.avatar-info p {
+  margin: 0;
+}
+
+.close-btn {
+  color: hsl(var(--muted-foreground));
+  transition: all 0.2s;
+}
+
+.close-btn:hover {
+  color: hsl(var(--foreground));
+  background: hsl(var(--accent));
+}
+
+/* Tabs */
+.avatar-tabs {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.avatar-tabs [role="tablist"] {
+  padding: 0.75rem;
+  background: hsl(var(--card));
+  border-bottom: 1px solid hsl(var(--border));
+}
+
+.avatar-tabs [role="tab"] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  color: hsl(var(--muted-foreground));
+  transition: all 0.2s;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+}
+
+.avatar-tabs [role="tab"]:hover {
+  color: hsl(var(--foreground));
+  background: hsl(var(--accent));
+}
+
+.avatar-tabs [role="tab"][data-state="active"] {
+  color: hsl(var(--primary));
+  background: hsl(var(--primary) / 0.1);
+}
+
+.avatar-tabs [role="tabpanel"] {
+  flex: 1;
+  overflow-y: auto;
+}
+
+/* Voice Indicator Animation */
+.voice-indicator.listening {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 hsl(var(--primary) / 0.4);
+  }
+  70% {
+    box-shadow: 0 0 0 10px hsl(var(--primary) / 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 hsl(var(--primary) / 0);
+  }
+}
+
+/* Chat Messages */
+.chat-messages {
+  background: hsl(var(--background));
+}
+
+.empty-chat {
+  opacity: 0.6;
+}
+
+.message.user-message {
+  margin-left: auto;
+}
+
+.message.assistant-message {
+  margin-right: auto;
+}
+
+/* Volume Slider - FIXED VERSION */
+.volume-slider {
+  flex: 1;
+  height: 6px;
+  border-radius: 3px;
+  background: hsl(var(--muted));
+  outline: none;
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+/* WebKit browsers (Chrome, Safari, Edge) */
+.volume-slider::-webkit-slider-thumb {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: hsl(var(--primary));
+  cursor: pointer;
+  border: 2px solid hsl(var(--background));
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Firefox */
+.volume-slider::-moz-range-thumb {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: hsl(var(--primary));
+  cursor: pointer;
+  border: 2px solid hsl(var(--background));
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Status Indicators */
+.status-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.status-dot.idle {
+  background: hsl(var(--muted-foreground));
+}
+
+.status-dot.listening {
+  background: hsl(var(--primary));
+  animation: blink 1s infinite;
+}
+
+.status-dot.processing {
+  background: hsl(var(--warning));
+  animation: blink 0.5s infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+/* Footer */
+.avatar-sidebar-footer {
+  padding: 1rem 1.5rem;
+  border-top: 1px solid hsl(var(--border));
+  background: hsl(var(--card));
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .avatar-sidebar {
+    width: 100%;
+  }
+}
